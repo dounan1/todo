@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Todo list",
+    "scope": "/todo",
+    "display": "browser",
+    "start_url": "https://relaxed-keller-f0a6de.netlify.com/todo",
+    "short_name": "Todo",
+    "theme_color": "transparent",
+    "description": "Task List That People Ignore",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/0aa2d614-90b7-c9b4-a23e-0e8234e68c9b.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/e11a0c18-3f1a-d047-dd4e-5d8021257543.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9a4c5229-b9d7-2ef4-a847-549f99bf1e95.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3c07398a-9ce5-4f30-5512-0091b4854b09.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/96c08cc4-9c6d-e978-77b5-1cdeb6648f67.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/493da2ee-4e9c-f5fb-a94b-17712128df9f.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/fb372482-2aed-678a-31dd-c17965a62b37.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/75ee3734-29d8-120b-2b16-010331dc8259.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/59a545fc-93ec-28ee-d02f-c810b6b96be2.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/39365f98-fc3b-0ff4-efb1-a2e61db3e87d.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/302c4b17-1ec5-8d56-ad1e-3d3612b4bdee.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9e221743-0425-f06a-2ef6-997347a94575.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/84dd053a-270a-b37f-9f42-90de86cd46ce.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1fe89f6d-5273-b7a6-3212-5f420a178da5.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/97d34724-f005-7dfd-3668-10749f64b4e6.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/52bdd4b3-6285-269f-d07e-df85f7fe495b.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/cc8ded04-6a01-3e15-85ed-da7b33d4907b.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/72759504-0287-30a5-3c1d-6d259fda4c92.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/750beea5-3a0a-00c2-9c45-321138bed451.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
