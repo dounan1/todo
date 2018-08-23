@@ -4,7 +4,7 @@
     "name": "Todo list",
     "scope": "/todo",
     "display": "browser",
-    "start_url": "https://relaxed-keller-f0a6de.netlify.com/todo",
+    "start_url": "file:///Users/dounanhu/Code/cto/todo/todo.html",
     "short_name": "Todo",
     "theme_color": "transparent",
     "description": "Task List That People Ignore",
