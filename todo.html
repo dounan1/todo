@@ -1,0 +1,45 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<div id='todo'>
+  <h1>TODO list</h1>
+  <ul>
+    <todo-item  v-for="task in tasks" v-bind:task="task"></todo-item>
+  </ul>
+
+  <h2>New Task:</h2>
+
+  <input v-on:keyup.enter="addTask" type="text">
+</div>
+
+<script type="text/javascript">
+
+  Vue.component('todo-item', {
+    props: ['task'],
+    template: '<li>{{ task.name }}</li>'
+  })
+
+
+  let task = new Vue({
+    el: "#todo",
+    data: {
+      tasks: [
+      { id: 1, name: 'eat' },
+      { id: 2, name: 'sleep' },
+      { id: 3, name: 'pray' },
+      { id: 4, name: 'code' }
+      ]
+    },
+    methods: {
+      addTask: function(e) {
+        let tasks = this.tasks
+        tasks.push({id: tasks.length + 1, name: e.target.value})
+      }
+    }
+  })
+
+  // let newTask = new Vue({
+  //   el:
+  //   data:
+  // })
+</script>
