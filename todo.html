@@ -1,4 +1,5 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<link rel="manifest" href="manifest.json"></link>
 
 
 <div id='todo'>
@@ -42,4 +43,17 @@
   //   el:
   //   data:
   // })
+</script>
+
+<script>
+  if (navigator.serviceWorker.controller) {
+    console.log('[PWA Builder] active service worker found, no need to register')
+  } else {
+    //Register the ServiceWorker
+    navigator.serviceWorker.register('pwabuider-sw.js', {
+      scope: './'
+    }).then(function(reg) {
+      console.log('Service worker has been registered for scope:'+ reg.scope);
+    });
+  }
 </script>
